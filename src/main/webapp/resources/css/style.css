@@ -1,0 +1,80 @@
+a {
+	background-color:yellow;
+	color:black;
+	margin-top:20px;
+	padding:5px;
+
+}
+a:hover{
+	color:blue;
+}
+
+div.one {
+	width:300px;
+	height:210px;
+	float:left;
+	line-height:1.5;
+	overflow-y:auto;
+	
+}
+div.one p{
+	margin:0px;
+	line-height:1.5;
+	
+}
+div.one p:hover{
+	cursor:pointer;
+	color:red;
+}
+
+div.one p:nth-child(odd){
+	background-color:#A0F59F;
+}
+
+div.one p:nth-child(even){
+	background-color:#65F5B7;
+}
+
+div.two {
+	float:left;
+	width:300px;
+	margin-left: 50px;
+
+}
+
+div.two p{
+	line-height:1.5;
+	margin:0px;
+	background-color:#FFF987;
+	
+	
+}
+
+div.two p:first-child{
+	margin:0px;
+	font-weight:bold;
+	background-color:#DFDFDF;
+}
+div.clear{
+	clear:left;
+	height:10px;
+}
+input[name="personId"]{
+	visibility:hidden;
+}
+
+div.two p[id]:hover{
+	cursor:pointer;
+	color:red;
+}
+button{
+	margin-top:5px;
+	display:block;
+	width:200px;
+}
+h4{
+	display:inline;
+}
+#testinput{
+	margin-left: 28px;
+}
